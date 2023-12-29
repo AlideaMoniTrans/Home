@@ -10,31 +10,36 @@
 </head>
 <style>
   body {
-    font-family: Alkalami, Helvetica, sans-serif;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
-  .pill-nav a {
-    display: inline-block;
-    color: black;
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
     text-align: center;
-    padding: 14px;
+    padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    border-radius: 5px;
   }
   
-  .pill-nav a:hover {
+  .topnav a:hover {
     background-color: #ddd;
     color: black;
   }
   
-  .pill-nav a.active {
-    background-color: rgb(0, 0, 0);
+  .topnav a.active {
+    background-color: #04AA6D;
     color: white;
   }
   </style>
 
-<style>
+  <style>
 body {
   background-color: white;
 }
@@ -232,9 +237,9 @@ body {
 
 <button onclick="topFunction()" id="myBtn" title="Go to top">Inapoi</button>
 
-<div class="pill-nav">
-<center><b><a class="active" href="https://alideamonitrans.github.io/Home/">Acasa</a>
-  <a href="https://alideamonitrans.github.io/Contacteaza-ne/">Contacteaza-ne</a></center></b>
+<div class="topnav">
+  <center><a class="active" href="https://alideamonitrans.github.io/Home/"><b>Acasa</a>
+  <a href="https://alideamonitrans.github.io/Contacteaza-ne/">Contacteaza-ne</b></a></center>
 </div>
 
 <div id="main">
